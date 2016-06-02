@@ -1,6 +1,3 @@
-
-var start= function(){
-  $("#intro").fadeIn(3000);
-};
-
-$(document).ready(start);
+$(document).ready(function(){
+$("#intro").animate({left:'400px'},"slow");
+});
